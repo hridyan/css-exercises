@@ -20,6 +20,21 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 14px;
+  padding:16px;
+}
+.text-buttons{
+  justify-content: flex-start;
+}
+.header{
+  font-weight: 700;
+  margin-bottom:10px;
+  font-size: 16px;
+  padding: 4px 0 0 0;
+}
+.text{
+  margin-bottom: 16px;
 }
 
 .icon {
@@ -51,6 +66,7 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+
 }
 
 button.continue {
